@@ -1,0 +1,104 @@
+ form{
+      width:362px;
+       height:300px;
+       margin:0 auto;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      font-family:"Microsoft Yahei";
+          margin-top: 50px;
+    }
+    form h4{
+      width: 362px;
+      height: 78px;
+      background-color: #ff475a;
+      font-size: 24px;
+      color: #fff;
+      line-height: 78px;
+      box-sizing: border-box;
+      font-family:"Microsoft Yahei";
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    }
+    #mobile{
+      width: 300px;
+      height: 50px;
+      border: 1px solid #e8e8e8;
+      outline: 0;
+      font-size: 16px;
+      color: #666;
+      padding-left: 10px;
+      font-family:"Microsoft Yahei";
+      margin:20px 0;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      position:relative;
+      top:-20px;
+    }
+    #contactBtn{
+      width: 260px;
+      height: 60px;
+      background-color: #ff475a;
+      font-size: 24px;
+      font-family:"Microsoft Yahei";
+      color: #fff;
+      border:0;
+      outline:0;
+      cursor:pointer;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    }
+    #contactBtn:active{
+      position:relative;
+      top:2px;
+    }
+    @media screen and (max-width: 400px) {
+    form{
+         width: 308px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    font-family: "Microsoft Yahei";
+        margin-top: 50px;
+    }
+    form h4{
+       width: 308px;
+       height: 66px;
+      background-color: #ff475a;
+      font-size: 24px;
+      color: #fff;
+      line-height: 78px;
+      box-sizing: border-box;
+      font-family:"Microsoft Yahei";
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    }
+    #mobile{
+      width: 275px;
+      height: 50px;
+      border: 1px solid #e8e8e8;
+      outline: 0;
+      font-size: 16px;
+      color: #666;
+      padding-left: 10px;
+      font-family:"Microsoft Yahei";
+      margin:20px 0;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      position:relative;
+      top:-20px;
+    }
+    #contactBtn{
+      width: 152px;
+    height: 45px;
+      background-color: #ff475a;
+      font-size: 24px;
+      font-family:"Microsoft Yahei";
+      color: #fff;
+      border:0;
+      outline:0;
+      cursor:pointer;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    }
+    #contactBtn:active{
+      position:relative;
+      top:2px;
+    }
+}
