@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+  <meta charset="utf-8">
+  <title>无需密码查询任意号码余额</title>
+  <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+    <form class="u-form">
+            <h4>江苏电信余额与套餐查询</h4>
+            <input class="u_conpanyPhone" type="text" placeholder="手机号码" id="mobile">
+            <button class="u_order" type="button" id="contactBtn">查询</button>
+        </form>
+  <script>
+    $('#contactBtn').click(function(){
+      var num = $('.u_conpanyPhone').val();
+      console.log(num);
+       if(num == "" || !num.match(/^1[3|4|5|7|8][0-9]\d{4,8}$/)){
+            alert("请输入正确的手机号!");
+        }
+      else{
+         window.location.href='http://202.102.111.141/ztWxCz/pages/billQuerys/billQuery_realCost.html?accNbr=%20'+num+'&areaCode=0518&token=9847d7a5a6864d2c9c059902774be72e&bssInnerAreaId=63&prodId=18201308757 &ztInterSource=100001';
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
